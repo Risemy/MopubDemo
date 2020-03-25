@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         "    \"2f1740cb09e0470c9a823f35d3f8058a\"\n" +
                         "  ]\n" +
                         "}",
-                "1069167810093206", "aVg6HRucDUQU9zqCQ48TTZ", "5d7207c53fc195ac5c000f20");
+                "", "", "");
 
 
         Log.e("获取友盟ID", StatisticsManager.getTestDeviceInfo(this)[0]);
