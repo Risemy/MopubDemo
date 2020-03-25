@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "894984793132",
+    "firebase_url": "https://mopubsdktest.firebaseio.com",
+    "project_id": "mopubsdktest",
+    "storage_bucket": "mopubsdktest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894984793132:android:6f09cbae380c83f908b589",
+        "android_client_info": {
+          "package_name": "com.youloft.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894984793132-eaaen9v9ccsphr6l3v9i93lagsn227lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqbO2u2mSlEPkVNVcikPRSlFXY5-0qOjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894984793132-eaaen9v9ccsphr6l3v9i93lagsn227lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

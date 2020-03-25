@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_show_banner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="banner广告"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:id="@+id/tv_hide_banner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="隐藏banner广告"
+            android:textColor="#ffffff" />
+
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+
+        <TextView
+            android:id="@+id/tv_show_interstitial"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="插屏广告"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:id="@+id/tv_load_video"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="加载缓存视频"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_show_load_video1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="显示缓存视频"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:id="@+id/tv_test_statistics"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="测试统计"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_send_notification1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="发送本地消息1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_send_notification"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="发送本地消息（10秒之后出现）"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_cancel_notification"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="取消本地推送"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>
