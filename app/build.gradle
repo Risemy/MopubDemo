@@ -36,30 +36,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    //For banners
-    implementation('com.mopub:mopub-sdk-banner:5.11.1@aar') {
-        transitive = true
-        exclude group: 'com.google.code.gson', module: 'gson'
-    }
-
-// For interstitials
-    implementation('com.mopub:mopub-sdk-interstitial:5.11.1@aar') {
-        transitive = true
-        exclude group: 'com.google.code.gson', module: 'gson'
-    }
 
 
-//For native static (images).
-    implementation('com.mopub:mopub-sdk-native-static:5.11.1@aar') {
-        transitive = true
-        exclude group: 'com.google.code.gson', module: 'gson'
-    }
-
-// For native video. This will automatically also include native static
-    implementation('com.mopub:mopub-sdk-native-video:5.11.1@aar') {
-        transitive = true
-        exclude group: 'com.google.code.gson', module: 'gson'
-    }
+    api 'com.google.android.exoplayer:exoplayer:2.11.0'
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+    api 'com.mopub.volley:mopub-volley:2.1.0'
+    api 'com.mopub:libAvid-mopub:3.6.4'
+    api 'com.moat.analytics.mobile.mpub:moat-mobile-app-kit:2.4.5'
 
 // AppLovin
     implementation 'com.applovin:applovin-sdk:9.10.2'

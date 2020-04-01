@@ -18,14 +18,14 @@
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="" />
+            android:value="551970411880288" />
 
         <meta-data
             android:name="applovin.sdk.key"
-            android:value="" />
+            android:value="3A74IfT6NFU_AdrIDfHfgDUXOTq1_vyFDwcakL_Me-NtsxCz_rFucqXb2R_D4hH2S6OKcI36tREbu23MfoOrlH" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="" />
+            android:value="ca-app-pub-3477755457457214~7411395431" />
     </application>
 
 </manifest>
