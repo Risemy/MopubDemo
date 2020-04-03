@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         YouLoftSdk.initUnityAdSdk(this, "{\n" +
                         "  \"bannerIds\": [\n" +
-                        "    \"0ac59b0996d947309c33f59d6676399f\"\n" +
+                        "    \"79f899c310cb4f00a051b65810106b07\"\n" +
                         "  ],\n" +
                         "  \"interstIds\": [\n" +
                         "    \"4f117153f5c24fa6a3a92b818a5eb630\",\n" +
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_show_banner).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                YouLoftAdManager.loadAndShowBannerAd(1);
+                YouLoftAdManager.loadAndShowBannerAd(1,50);
             }
         });
 
